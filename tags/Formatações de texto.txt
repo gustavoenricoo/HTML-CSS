@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro documento</title>
+    <style>
+        mark {
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formatações de texto</h1>
+    <h2>Negrito</h2>
+    <p>Esse é meu primeiro <b>documento HTML</b>, estou muito feliz</p>
+    
+    <h2>Italico</h2>
+    <p>Esse é meu primeiro <i>documento HTML</i>, estou muito feliz</p>
+    
+    <h2>Texto marcado</h2>
+    <p>Esse é meu primeiro <mark>documento HTML</mark>, estou muito feliz</p>
+    <p>Mais um teste de marcação de texto automatica com tag (<mark>MARK</mark>) </p>
+    
+    <h2>Texto grande e pequeno</h2>
+    <p> Estou criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo</p>
+   
+    <h2>Texto deletado ou riscado</h2>
+    <p>Podemos marcar um <del>texto como deletado</del>, porém indicado a ser lido</p>
+    
+    <h2>Texto inserido</h2>
+    <p>Podemos marca <ins>um texto como inserido</ins> para indicar enfase ou conshecido como sublinhado</p>
+   
+    <h2> Textos subscritos</h2>
+    <p>Para inserir coisa do tipo 5<sup>2</sup></p>
+    <p>Para inserir coisa do tipo H<sub>2</sub>O </p>
+    
+    <h2>Texto monoespaçados</h2>
+    <p>O comando <code>document.getEletementById('teste')</code> é escrito em JavaScript.</p>
+    
+    <h2>Texto com  abreviações</h2>
+    <p>Estou estudando <abbr title="HiperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou gostando bastante!</p>
+    
+    <h2>Trabalhando com listas</h2>
+    <h4> Listas ordenadas</h4>
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li> Ligar o carro</li>
+        <li> Ir trabalhar</li>
+        <li>Ir almoçar</li>
+        <li>Trabalhar mais um pouco</li>
+        <li> Ir embora</li>
+    </ol>
+    <h4>Meu jogos favoritos</h4>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li> Mario Bros</li>
+            <ul type="circle">
+                 <li> Mario Bros 3</li>
+                <li>Mario: Lost levels</li>
+            </ul>
+                <li>Ninja Gaiden</li>
+                </ul>
+                <br>
+                <li>XBOX/ PLAYSTATION</li>
+                <ul type="square">
+                    <li>Rocket League</li>
+                    <li>Fall Guys</li>
+                    <li>Warzone</li>
+                    <li>The Last of US</li>
+                    <ul type="circle">
+                        <li>1</li>
+                        <li>2</li>
+                        </ul>
+                        <li> God Of War</li>
+                    </ul>
+                </ol>
+                <h2>Lista de definições</h2>
+                <d1>
+                    <dt>HTML</dt>
+                    <dd>Linguagem de marcação para criação de conteúdo de um site</dd>
+                    <dt>CSS</dt>
+                    <dd>Linguagem de marcação para criação do designe de um site</dd>
+                    <dt>JavaScript</dt>
+                    <dd>Linguagem de programação para criação de interatividade no site</dd>
+                </d1> 
+</body>
+</html>

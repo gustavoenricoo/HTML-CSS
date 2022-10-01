@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Esta é a segunda página</h1>
+    <p> Voce esta na segunda página</p>
+    <p><a href="index.html"rel="prev">Volta para a primeira pagina</a></p>
+    <p> Esta pagina é um oferecimento de<a href="https://www.adidas.com.br/adizero?-_-ds_agid=58700005786297203-_-&-_-ds_kid=43700052819745415-_-&cm_mmc=AdieSEM_Google-_-Trademark-adidas-General-B-Exact-Desktop-_-Trademark-adidas-X-General-_-adidas-_-&cm_mmc2=&cm_mmca1=BR&gclid=EAIaIQobChMItuqMj_KW-gIVAcORCh0gxg95EAAYASAAEgKN2PD_BwE&gclsrc=aw.ds" target="_blank"rel="nofollow"> Adidas</a></p>
+</body>
+</html>

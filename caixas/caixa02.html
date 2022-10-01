@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+
+        }
+
+
+        h1{
+            text-align: center
+        }
+
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+
+        nav{
+            background-color: rgb(124, 124, 124);
+            padding: 3px;
+            text-align: center;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.767);
+
+        }
+
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 100px;
+        }
+
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 1px rgba(0, 0, 0, 0.767);
+        }
+
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        
+        .especial{
+            background-color: gray;
+        }
+
+
+        .texto{
+            text-align: center;
+            text-decoration: solid;
+            font-weight: bolder;
+        }
+
+
+        footer{
+            background-color: black;
+            color: rgb(180, 180, 180);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            font-family: 'Times New Roman', Times, serif
+
+        }
+
+
+        footer > p{
+            margin: 0px;
+        }
+
+        
+    </style>
+</head>
+<body>
+   <header>
+    <h1> Meu site</h1>
+    <nav>
+        <a href="https://g1.globo.com/?utm_source=globo.com&utm_medium=header">Noticias</a>
+        <a href="https://ge.globo.com/?utm_source=barraGCOM">Esportes</a>
+        <a href="https://valor.globo.com/?utm_source=globo.com&utm_medium=header">Economia</a>
+        <a href="https://gshow.globo.com/?utm_source=globo.com&utm_medium=header">Famosos</a>
+        <a href="https://receitas.globo.com/?utm_source=globo.com&utm_medium=header">Receitas</a>
+    </nav>
+   </header>
+   <main>
+    <section id="assuntos">
+        <p class="texto"> Esportes Politica Tecnologia</p>
+
+    </section>
+    <section id="noticias">
+        <article>
+            <aside>
+                <h1> Noticias sobre o Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis facere ipsam, nulla numquam dolorum enim fugiat nobis nihil? Similique, aliquid! Reprehenderit dicta amet atque obcaecati rerum nulla eaque corporis!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet culpa exercitationem modi, labore totam quidem alias molestiae praesentium cum voluptatem ad quos nostrum iste, asperiores perferendis dolore deserunt? Non, rerum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas enim nam error eaque asperiores similique expedita animi soluta repellat repellendus nulla vitae dolorum mollitia, accusamus voluptatibus quae porro optio maiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aperiam architecto praesentium. Vitae vel officia ratione beatae mollitia, maiores iure doloremque, modi omnis, dolor est laudantium consequuntur dicta quibusdam vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id soluta quas, aperiam nesciunt vel quasi laborum magnam obcaecati unde cupiditate, veniam rerum ad omnis amet debitis! Voluptatibus, magni. Aliquid, doloremque!</p>
+            </aside>
+            <p class="especial"> Artigo escrito por Gustavo Enrico Capellatto</p>
+
+        </article>
+
+    </section>
+   </main>
+
+   <footer>
+    <p> <u>Desenvolvido por GustaCorporation</u></p>
+   </footer>
+   
+</body>
+</html>

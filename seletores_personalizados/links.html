@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<style>
+
+
+
+    /*  SELETORES PERSONALIZADOS
+
+        #  = id
+        .  = class
+        :  = pseudoclass
+        :: = pseudo-element
+        >  = children
+    */
+
+
+
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(255, 211, 211);
+        
+    }
+
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        color: darkred;
+        background-color: rgb(255, 148, 148);
+    }
+  
+
+
+    a{
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
+
+
+    a:visited{
+        color: darkred;
+    }
+
+
+
+    a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+
+
+
+    a:active{
+        color: yellow;
+    }
+
+
+
+
+    .especial{
+        background-color: rgb(255, 191, 191);
+    }
+
+
+
+    a::before{
+        content: ' ☞ ';
+    }
+
+
+
+    a::after{
+        content: ' ☜';
+    }
+
+
+
+
+</style>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://oglobo.globo.com/?utm_source=globo.com&utm_medium=header&utm_campaign=chamada_header" target="_blank" class="especial">Notícias</a></li>
+        <li><a href="https://ge.globo.com/?utm_source=barraGCOM" target="_blank">Esportes</a></li>
+        <li><a href="https://receitas.globo.com/?utm_source=globo.com&utm_medium=header" target="_blank">Receitas</a></li>
+
+    </ul>
+    
+</body>
+</html>
